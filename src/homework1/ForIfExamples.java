@@ -24,6 +24,11 @@ public class ForIfExamples {
 
         // odd numbers
         System.out.println();
+        for (int i = 20 ; i > 0; i--){
+            if (i == i / 2 * 2){
+                System.out.println(i);
+            }
+        }
         int x = 20;
         while (x > 0) {
             if (x == x / 2 * 2){
@@ -33,6 +38,12 @@ public class ForIfExamples {
         }
 
         // even numbers
+        for(int i = 1; i < 101;i++){
+            if (i == i / 2 * 2){
+                System.out.println(i);
+            }
+        }
+
         System.out.println();
         int y = 1;
         while (y < 101) {
