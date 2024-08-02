@@ -1,4 +1,4 @@
-package chapter2;
+package homework1;
 
 public class ArrayHomework {
     public static void main(String[] args) {
